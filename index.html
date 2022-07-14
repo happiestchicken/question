@@ -6,14 +6,29 @@
     </head>
     <body class="centered-wrapper">
         <div class="centered-content">
+            <br>
+            <br>
             <h1>Nerd Out!</h1>
-            <h3>Add players to the game:</h3>
-            <input type="text" id="Player" name="Player" placeholder="Answer" class="names"> 
-            <!--<button id="submit" class="button" value="submit" onclick="Submitname"> Add </button> <br>-->
+            <!--Question Text Box-->
+            <button class="start" type="randomQuestion" onclick="randomQuestion()">Get Question</button>
             <br>
             <br>
-            <button id="start" class="start" value="submit" onclick="myfunction()"> Submit </button> <br>
-
+            <textarea name="randomQuestion" id="randomQuestion" class="question" type="text" rows="5" cols="50"></textarea>
+            <br>
+            <br>
+            <br>
+            <!--Get answer button-->
+            <button class="start" type="randomQuestion" onclick="toggleText(); myToggle()">Show/Hide Answer</button>
+            <br>
+            <br>
+            <!--Answer text box-->
+            <div id="demo" style="display: none;">
+                <textarea name="randomAnswer" id="randomAnswer" rows="5" cols="30"></textarea>
+            </div>
+            <br>
+            <br>
+            <br>
+            <textarea id="text" name="text" rows="7" cols="50" placeholder="Writing down your answers here before revealing will help you learn faster!" class="notesbox"></textarea>
         </div>
     </body>
 </html>
