@@ -1,6 +1,6 @@
 # Programmer Interview Study
-#### Video Demo:  <URL HERE>
-#### Description: 
+#### Video Demo: https://www.youtube.com/watch?v=RB6xuGf8QeY
+#### Description:
 For my final project for CS50 I decided to create a site that users can use to help prepare them for their next coding-related interview. Users can press the "get question" button to get a question related to coding/programming. These questions are particular ones that are often asked in coding interviews. When the user wants to see the answer, they can press the "get answer" button for it to be revealed. This way, the site sort of acts in the same way that flashcards do.
 
 I decided to do this as my final project as it allowed me to practice and expand my knowledge of writing code using the languages JavaScript, HTML, and CSS.
