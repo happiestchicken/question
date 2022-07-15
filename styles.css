@@ -6,7 +6,7 @@ body {
 h1 {
     color: #ee5d5a;
     font-family: sans-serif;
-    font-size: 500%;
+    font-size: 470%;
     text-shadow: 3px 2px #2f3f56;
 }
 
@@ -136,4 +136,8 @@ html, body {
 
   .scroll::-webkit-scrollbar {
     display: none;
+  }
+
+  .question {
+    text-align: center;
   }
