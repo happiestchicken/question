@@ -11,3 +11,16 @@ When I started working on the project, I planned to make a more dynamic site, wh
 Because I made the site without the use of databases, all the questions and answers used were instead stored in arrays in JavaScript. As I learn more about coding, more questions will be added to the study tool. By doing the project this way I was able to practice using these coding languages, I learned more about making a website and learned more coding concepts which I had to learn to make questions about.
 
 Overall, I am proud of what I was able to create, and I learned a lot from this project and the class as a whole.
+
+## Files
+### .html
+The .html file contains the code which displays the website. The site contains a title, some text, two buttons, and some text boxes for the questions and answers which are passed to it by the JS file.
+
+### .css
+This file contains the styling code for the site. Overall, doing the styling was my favourite part of the project as it was fun to see the site come alive.
+
+### .js
+The JavaScript file contains the brains of the site. This file includes funcitons which get the question and answer, hides elements, etc. It also contains the array of the questions and an array of the answers.
+
+The video can be found at:
+https://www.youtube.com/watch?v=RB6xuGf8QeY
