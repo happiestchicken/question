@@ -1,6 +1,6 @@
 <html lang ="en">
     <head>
-        <title>Nerd Out</title>
+        <title>Programming Quiz</title>
         <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
     </head>
@@ -8,9 +8,9 @@
         <div class="centered-content">
             <br>
             <br>
-            <h1>Nerd Out!</h1>
+            <h1>Programmer Quiz</h1>
             <!--Question Text Box-->
-            <button class="start" type="randomQuestion" onclick="randomQuestion()">Get Question</button>
+            <button class="start" type="randomQuestion" onclick="randomQuestion(); myToggle()">Get Question</button>
             <br>
             <br>
             <textarea name="randomQuestion" id="randomQuestion" class="question" type="text" rows="5" cols="50"></textarea>
@@ -18,17 +18,17 @@
             <br>
             <br>
             <!--Get answer button-->
-            <button class="start" type="randomQuestion" onclick="toggleText(); myToggle()">Show/Hide Answer</button>
+            <button class="start" type="randomQuestion" onclick="toggleText()">Show/Hide Answer</button>
             <br>
             <br>
             <!--Answer text box-->
             <div id="demo" style="display: none;">
-                <textarea name="randomAnswer" id="randomAnswer" rows="5" cols="30"></textarea>
+                <textarea name="randomAnswer" id="randomAnswer" rows="6" cols="50" class="scroll"></textarea>
             </div>
             <br>
             <br>
             <br>
-            <textarea id="text" name="text" rows="7" cols="50" placeholder="Writing down your answers here before revealing will help you learn faster!" class="notesbox"></textarea>
+            <textarea id="text" name="text" rows="7" cols="50" placeholder="Writing down your answers here before revealing will help you learn faster!" style="overflow:hidden" class="notesbox"></textarea>
         </div>
     </body>
 </html>

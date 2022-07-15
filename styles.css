@@ -133,3 +133,7 @@ html, body {
     font-weight: bold;
     resize: none;
   }
+
+  .scroll::-webkit-scrollbar {
+    display: none;
+  }
